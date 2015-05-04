@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         distance = 0
         timeStart = nil
         self.updateUI()
+        pedometer.stopPedometerUpdates();
     }
     @IBAction func startButtonPressed(sender: UIButton) {
         println("pressed")
